@@ -1,0 +1,91 @@
+
+Starting to phyton programming Zero to Hard
+
+
+>>> max=5
+>>> for i in range(max):
+	print("welcome to phyton learning mustafiz")
+	print(i)
+	print("i")
+	print(max)
+	print("max")
+	print('i');
+
+	
+welcome to phyton learning mustafiz
+0
+i
+5
+max
+i
+welcome to phyton learning mustafiz
+1
+i
+5
+max
+i
+welcome to phyton learning mustafiz
+2
+i
+5
+max
+i
+welcome to phyton learning mustafiz
+3
+i
+5
+max
+i
+welcome to phyton learning mustafiz
+4
+i
+5
+max
+i
+
+>>> 
+>>> 
+>>> 
+>>> word="""
+FFFFFFF U     U  NN   NN
+FF       U    U   NNN NN
+FFFFFFF  U    U  NN N  NN
+FF        U  U   NN  N NN
+FF         UUU    NN   NNN
+"""
+>>> print(word)
+
+FFFFFFF U     U  NN   NN
+FF       U    U   NNN NN
+FFFFFFF  U    U  NN N  NN
+FF        U  U   NN  N NN
+FF         UUU    NN   NNN
+
+>>> max=4
+>>> print("%-10s %10s %-10s" %("a","a^2","a^3"))
+a                 a^2 a^3       
+>>> for i in range (max):
+	print("%-10d %-10d %-10d" %(i,i*i,i**3))
+
+	
+0          0          0         
+1          1          1         
+2          4          8         
+3          9          27        
+
+>>>  max=7
+>>> print("%-10s %10s %-10s" %("a","a^2","a^3"))
+a                 a^2 a^3       
+>>> for i in range (max):
+	print("%-10d %-10d %-10d" %(i,i*i,i**3))
+	
+SyntaxError: unexpected indent
+>>> 
+>>> max=7
+>>> print("%-10s %-10s %-10s"% ("a","a^5","a^7")
+	  for i in range (max):
+	  
+SyntaxError: invalid syntax
+>>> print("%-10d %-10d %-10d" %(i,i*5,i**7))
+	  
+3          15         2187      
